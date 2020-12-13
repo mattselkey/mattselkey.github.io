@@ -1,6 +1,6 @@
 ---
 id: 249
-title: 'Fixing a VSTS Azure Pipeline Agent installation Error:Cannot configure the agent because it is already configured.'
+title: 'Fixing a VSTS Azure Pipeline Agent installation Error: Cannot configure the agent because it is already configured.'
 date: 2019-10-13T20:11:46+01:00
 author: mattselkey
 layout: post
