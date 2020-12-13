@@ -19,11 +19,13 @@ categories:
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>First initialise&nbsp;the repository</p>
+<p>First initialise the repository</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:shortcode -->
-[cc lang="bash"]git init[/cc]
+{% highlight ruby %}
+git init
+{% endhighlight %}
 <!-- /wp:shortcode -->
 
 <!-- wp:paragraph -->
@@ -31,7 +33,9 @@ categories:
 <!-- /wp:paragraph -->
 
 <!-- wp:shortcode -->
-[cc lang="bash"]git commit[/cc]
+{% highlight ruby %}
+git commit
+{% endhighlight %}
 <!-- /wp:shortcode -->
 
 <!-- wp:heading -->
@@ -39,7 +43,9 @@ categories:
 <!-- /wp:heading -->
 
 <!-- wp:shortcode -->
-[cc lang="bash"]git clone https://github_url/project-name.git[/cc]
+{% highlight ruby %} 
+git clone https://github_url/project-name.git
+{% endhighlight %}
 <!-- /wp:shortcode -->
 
 <!-- wp:heading -->
@@ -47,7 +53,9 @@ categories:
 <!-- /wp:heading -->
 
 <!-- wp:shortcode -->
-[cc lang="bash"]git remote set-url origin https://github_url/project-name.git[/cc]
+{% highlight ruby %}
+git remote set-url origin https://github_url/project-name.git
+{% endhighlight %}
 <!-- /wp:shortcode -->
 
 <!-- wp:heading {"level":1} -->
@@ -63,7 +71,9 @@ categories:
 <!-- /wp:paragraph -->
 
 <!-- wp:shortcode -->
-[cc lang="bash"]git branch -a[/cc]
+{% highlight ruby %}
+git branch -a
+{% endhighlight %}
 <!-- /wp:shortcode -->
 
 <!-- wp:heading -->
@@ -75,7 +85,9 @@ categories:
 <!-- /wp:paragraph -->
 
 <!-- wp:shortcode -->
-[cc lang="bash"]git checkout -b newBranchName BaseBranchName[/cc]
+{% highlight ruby %}
+git checkout -b newBranchName BaseBranchName
+{% endhighlight %}
 <!-- /wp:shortcode -->
 
 <!-- wp:paragraph -->
@@ -91,7 +103,9 @@ categories:
 <!-- /wp:paragraph -->
 
 <!-- wp:shortcode -->
-[cc lang="bash"]git checkout BranchName[/cc]
+{% highlight ruby %}
+git checkout BranchName
+{% endhighlight %}
 <!-- /wp:shortcode -->
 
 <!-- wp:heading -->
@@ -99,7 +113,9 @@ categories:
 <!-- /wp:heading -->
 
 <!-- wp:shortcode -->
-[cc lang="bash"]git branch -d BranchName[/cc]
+{% highlight ruby %}
+git branch -d BranchName
+{% endhighlight %}
 <!-- /wp:shortcode -->
 
 <!-- wp:heading -->
@@ -107,7 +123,9 @@ categories:
 <!-- /wp:heading -->
 
 <!-- wp:shortcode -->
-[cc lang="bash"]git push RemoteRepositoryURL -d BranchName[/cc]
+{% highlight ruby %}
+git push RemoteRepositoryURL -d BranchName
+{% endhighlight %}
 <!-- /wp:shortcode -->
 
 <!-- wp:heading {"level":1} -->
@@ -119,7 +137,9 @@ categories:
 <!-- /wp:heading -->
 
 <!-- wp:shortcode -->
-[cc lang="bash"]git tag[/cc]
+{% highlight ruby %}
+git tag
+{% endhighlight %}
 <!-- /wp:shortcode -->
 
 <!-- wp:heading -->
@@ -127,7 +147,9 @@ categories:
 <!-- /wp:heading -->
 
 <!-- wp:shortcode -->
-[cc lang="bash"]git tag -d TagName[/cc]
+{% highlight ruby %}
+git tag -d TagName
+{% endhighlight %}
 <!-- /wp:shortcode -->
 
 <!-- wp:heading -->
@@ -135,7 +157,9 @@ categories:
 <!-- /wp:heading -->
 
 <!-- wp:shortcode -->
-[cc lang="bash"]git fetch --prune --tags[/cc]
+{% highlight ruby %}
+git fetch --prune --tags
+{% endhighlight %}
 <!-- /wp:shortcode -->
 
 <!-- wp:heading {"level":1} -->
@@ -147,7 +171,9 @@ categories:
 <!-- /wp:heading -->
 
 <!-- wp:shortcode -->
-[cc lang="bash"]git subtree add --prefix LocalFolder RemoteRepoURL.git BranchName --squash[/cc]
+{% highlight ruby %}
+git subtree add --prefix LocalFolder RemoteRepoURL.git BranchName --squash
+{% endhighlight %}
 <!-- /wp:shortcode -->
 
 <!-- wp:heading -->
@@ -155,7 +181,9 @@ categories:
 <!-- /wp:heading -->
 
 <!-- wp:shortcode -->
-[cc lang="bash"]git subtree pull --prefix LocalFolder RemoteRepoURL.git BranchName --squash[/cc]
+{% highlight ruby %}
+git subtree pull --prefix LocalFolder RemoteRepoURL.git BranchName --squash
+{% endhighlight %}
 <!-- /wp:shortcode -->
 
 <!-- wp:heading -->
@@ -163,5 +191,5 @@ categories:
 <!-- /wp:heading -->
 
 <!-- wp:shortcode -->
-[cc lang="bash"]git remote rm LocalFolder[/cc]
+{% highlight ruby %}git remote rm LocalFolder{% endhighlight %}
 <!-- /wp:shortcode -->

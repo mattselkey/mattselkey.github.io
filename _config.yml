@@ -29,6 +29,7 @@ github_username:  mattselkey
 
 # Build settings
 theme: minima
+highlighter: rouge
 plugins:
   - jekyll-feed
 
