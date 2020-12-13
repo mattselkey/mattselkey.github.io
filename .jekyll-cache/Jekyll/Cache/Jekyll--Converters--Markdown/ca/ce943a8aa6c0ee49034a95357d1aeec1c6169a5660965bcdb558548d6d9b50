@@ -1,0 +1,4 @@
+I" <!-- wp:paragraph -->
+<p>Recently while setting up an On-premises Azure DevOps server I came across a few issues installing and configuring a  VSTS  Azure Pipelines  Agent. During the configuration phase an error reported that the agent was already configured.</p>
+<!-- /wp:paragraph -->
+:ET
