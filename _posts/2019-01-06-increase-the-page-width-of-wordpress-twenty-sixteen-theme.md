@@ -2,6 +2,7 @@
 id: 112
 title: Increase the page width of the WordPress Twenty Sixteen theme.
 date: 2019-01-06T22:33:02+01:00
+github_comments_issueid: "2"
 author: mattselkey
 layout: post
 guid: https://mattselkey.com/?p=112
