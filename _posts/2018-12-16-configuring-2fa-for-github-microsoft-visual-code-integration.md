@@ -2,6 +2,7 @@
 id: 33
 title: Configuring 2FA for Github with Microsoft Visual Studio Code Integration
 date: 2018-12-16T10:29:25+01:00
+github_comments_issueid: "1"
 author: mattselkey
 layout: post
 guid: https://mattselkey.com/?p=33
