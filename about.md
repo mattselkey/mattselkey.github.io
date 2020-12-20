@@ -4,15 +4,9 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+A highly qualified, self-motivated and consistent Senior Systems Engineer with many years of experience working in demanding, high pressure environments. 
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Passionate about new technology, my current and previous roles involve investigating, designing, managing and developing new IT systems and infrastructure through the project life cycle, transforming and improving end user experience through virtualization technologies while working within the ITIL framework and using Agile development methodologies (Jira/SCRUM).
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Specialties: Citrix XenApp/XenDesktop Client/Server/Remote & Mobile Technologies, Microsoft Server Technologies, Microsoft SCCM Suite, VMware vSphere & Virtualisation Technologies, AppSense Suite. Automation, Scripting (PowerShell, VBS) and development (Github, C#, JavaScript, JQuery).
 
-
-[jekyll-organization]: https://github.com/jekyll
