@@ -19,13 +19,26 @@
 # in the templates via {{ site.myvariable }}.
 
 title: mattselkey
-email: matt@mattselkey.com
+author:
+  name: mattselkey
+  email: matt@mattselkey.com
 description: >- # this means to ignore newlines until "baseurl:"
   IT | Scripting | Automation | Coding | Endurance Sport
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "mattselkey.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter: mattselkey
-github:  mattselkey
+
+# Minima date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%b %-d, %Y"
+
+
+# generate social links in footer
+  social_links:
+    twitter: mattselkey
+    github:  mattselkey
+
+show_excerpts: false # set to true to show excerpts on the homepage
 
 # Build settings
 theme: minima
@@ -56,3 +69,6 @@ plugins:
 
 # Google Analytics
 google_analytics: G-JYMVN6Z14N
+
+
+github_comments_repository: mattselkey/mattselkeyblogcomments/issues
