@@ -72,3 +72,8 @@ google_analytics: G-JYMVN6Z14N
 
 # Set this to a github repository to be used to host comments.
 github_comments_repository: mattselkey/mattselkeyblogcomments
+
+#settings
+future: true
+
+
