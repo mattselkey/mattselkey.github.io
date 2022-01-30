@@ -1,6 +1,6 @@
 ---
 id: 1000
-title: 'Docker Desktop Alternatives And A Brief History Of Containers.'
+title: 'Docker Desktop Alternatives and of Brief History of Containers.'
 date: 2022-01-28T21:34:00+00:00
 github_comments_issueid: "5"
 author: mattselkey
