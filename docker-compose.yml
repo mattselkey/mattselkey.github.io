@@ -1,8 +1,8 @@
 version: '3'
 services:
   jekyll:
-    image: jekyll/jekyll:4.2.0
-    command: jekyll serve --future --incremental --watch --force_polling -H 0.0.0.0 -P 4000
+    image: jekyll/jekyll:latest
+    command: jekyll serve --future --incremental --watch --force_polling --verbose --livereload
     ports:
           - 4000:4000
     working_dir: /usr/src/app
