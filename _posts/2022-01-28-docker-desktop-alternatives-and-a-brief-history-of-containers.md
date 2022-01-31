@@ -42,7 +42,7 @@ Before docker, containers already had a very long history, a non-exhaustive list
   - There was no dependency on the rest of the Docker platform: just the container runtime and nothing else.
   - The goal of runC was make standard containers available everywhere.
   - The code for runC was donated the code to the Open Container Project (OCP foundation). OCP was renamed to the Open Container Initiative (OCI)
-* 2020 - k8s removed docker runtime - instead pushes support for the Container Runtime Interface (CRI) [1]
+* 2020 - k8s deprecated the docker runtime - instead pushes support for the Container Runtime Interface (CRI) [1]
 > "If you are using Docker for building your application containers, you can still run these containers on any container runtime. This use of Docker does not count as a dependency on Docker as a container runtime."[^2]
 * 2021 - Docker announces a new subscription for professionals and businesses [model](https://www.docker.com/blog/updating-product-subscriptions/)
 
