@@ -1,4 +1,4 @@
----
++++
 id: 112
 title: Increase the page width of the WordPress Twenty Sixteen theme.
 date: 2019-01-06T22:33:02+01:00
@@ -11,7 +11,7 @@ categories:
   - CSS
   - webdevelopment
   - Wordpress
----
++++
 <p style="text-align: justify;">One issue I've found with the built-in WordPress themes (especially the Twenty Sixteen theme) is that when using images in a post they are not aligned correctly on the page.</p>
 <p style="text-align: justify;">After firing up Chrome development tools and checking out the elements on the page it is clear that the main culprit for this is the post comment/date stamp element taking up a big part for the left hand of the page, as shown below:</p>
 <img class="aligncenter size-full wp-image-114" src="https://mattselkey.com/wp-content/uploads/2019/01/2019-01-06-15_55_31-Matthew-S-Key-–-IT-_-Scripting-_-Automation-_-Coding-_-Endurance-Sport.png" alt="2019-01-06 15_55_31-Matthew S Key – IT _ Scripting _ Automation _ Coding _ Endurance Sport" width="937" height="286" />

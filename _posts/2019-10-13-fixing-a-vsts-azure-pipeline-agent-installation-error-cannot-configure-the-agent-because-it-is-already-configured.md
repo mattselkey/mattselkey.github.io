@@ -1,4 +1,4 @@
----
++++
 id: 249
 title: 'Fixing a VSTS Azure Pipeline Agent installation Error: Cannot configure the agent because it is already configured.'
 date: 2019-10-13T20:11:46+01:00
@@ -13,7 +13,7 @@ tags:
   - Azure
   - DevOps
   - TFS
----
++++
 <!-- wp:paragraph -->
 <p>Recently while setting up an On-premises Azure DevOps server I came across a few issues installing and configuring a  VSTS  Azure Pipelines  Agent. During the configuration phase an error reported that the agent was already configured.</p>
 <!-- /wp:paragraph -->
