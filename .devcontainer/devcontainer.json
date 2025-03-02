@@ -1,0 +1,27 @@
+{
+  "name": "Hugo Development",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/hugo:latest": {
+      "extended": true
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.live-server",
+        "bierner.markdown-preview-github-styles"
+      ]
+    }
+  },
+  "forwardPorts": [1313],
+  "postStartCommand": [],
+"mounts": [
+    "source=${localWorkspaceFolder},target=/workspace,type=bind",
+    "source=${env:USERPROFILE}/.ssh,target=/root/.ssh,type=bind,consistency=cached"
+],
+"postAttachCommand": "git config --global --add safe.directory /workspaces/mattselkey.github.io",
+"remoteEnv": {
+    "GIT_SSH_COMMAND": "ssh -i /root/.ssh/github_personal_noreply/id_ed25519_noreply -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no"
+}
+}
