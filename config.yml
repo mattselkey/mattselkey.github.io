@@ -57,6 +57,14 @@ Params:
     page:
       - type: toc
 
+    colorScheme:
+        # Display toggle
+        toggle: true
+
+        # Available values: auto, light, dark
+        default: dark
+
+
 menu:
   main:
       ## see https://tabler.io/icons
