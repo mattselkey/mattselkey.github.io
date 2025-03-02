@@ -47,10 +47,6 @@ Params:
       - type: archives
         params:
           limit: 5
-      # Maybe use the icon for the categories widget?
-      # - type: categories
-      #   params:
-      #     limit: 10
       - type: tag-cloud
         params:
           limit: 10
@@ -63,10 +59,10 @@ Params:
 
         # Available values: auto, light, dark
         default: dark
-
-
 menu:
-  main:
+   main: []
+   
+   social:
       ## see https://tabler.io/icons
     - identifier: github
       name: GitHub
